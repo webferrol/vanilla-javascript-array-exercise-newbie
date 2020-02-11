@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/init.css"/>
+    <script src="js/array.js"></script>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="cabecera">
+        <h1 class="cabecera__title">JavaScript</h1>
+      </header>
+      <div class="contenido">
+        <article class="contenido__item">
+          <header class="subcabecera">
+            <h2 class="subcabecera__title">Arrays</h2>
+            <div class="listado">
+              <fieldset class="decripcion">
+                <legend class="decripcion__legend">Recorrido</legend>
+                <div>
+                  <h3>Explicación</h3>
+                  <p class="decripcion__p">La mejor forma de recorrer un array es con la estructura de control for.</p>
+                  <h3>Sintaxis</h3>
+                  <p class="descripcion__p"> <code>for(let i=0;i&lt;array.length;i++){//instrucciones}							</code></p>
+                </div>
+              </fieldset>
+              <fieldset class="ejercicios">
+                <legend class="ejercicios_legend">cargar números</legend>
+                <ol class="ejercicio">
+                  <li class="ejercicio__item">Cargar 10 elementos y visualizarlos después.							</li>
+                  <li>
+                    <button class="boton" id="b_cargar">Cargar </button>
+                    <div id="serie_cargar"></div>
+                    <div id="msg_cargar"></div>
+                  </li>
+                </ol>
+              </fieldset>
+              <fieldset class="ejercicios">
+                <legend class="ejercicios_legend">Ejercicio 1 </legend>
+                <ol class="ejercicio">
+                  <li class="ejercicio__item">Cargar en un array 10 números enteros positivos. </li>
+                  <li>Ordenarlos y visualizarlos. Mira el método .sort() de los apuntes
+                    <ul class="listado">
+                      <li>
+                        <label for="ordenado">Teclee 10 números</label>
+                        <input id="ordenado" type="text"/>
+                        <button class="boton" id="b_1">Aceptar </button>
+                        <div id="serie_b1"></div>
+                        <div id="msg_b1"></div>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </fieldset>
+              <fieldset class="ejercicios">
+                <legend class="ejercicios_legend">Ejercicio 2 </legend>
+                <ol class="ejercicio">
+                  <li class="ejercicio__item">Cargar en un array N números enteros positivos. </li>
+                  <li>Se confirmará al usuario si se desea cargar un número más</li>
+                  <li>Cuando el usuario deje de solicitar la carga se calculará la media de los mismos
+                    <ul class="listado">
+                      <li>
+                        <label for="array">Inserte un número</label>
+                        <input id="array" type="text"/>
+                        <button class="boton" id="b_2">Guardar </button>
+                        <div id="serie_b2"></div>
+                        <div id="msg_b2"></div>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </fieldset>
+            </div>
+          </header>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
